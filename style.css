@@ -1,0 +1,79 @@
+.top-container{
+    text-align: center;
+    background-color:#0bccfe ;
+}
+.title-text{
+    padding-top: 100px; ;
+}
+#Sumukh{
+    font-size:10rem;
+    color: white;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+}
+#guy{
+    font-family: "Black Ops One", system-ui;
+    font-size: 5.5rem;
+    color:#616dfe;
+}
+#under-the-line{
+    text-decoration:underline;
+}
+.flex-profile{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+.img1{
+    border-radius: 50%;
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+}
+.profile{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#3ABEF9;
+    border-radius: 50px;
+}
+.Menu{
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3ABEF9;
+    border-radius: 50px;
+}
+.profile>p{
+    font-size: larger;
+    word-wrap: break-word;
+    width: 500px;
+    color: azure;
+}
+.profile>h3{
+    color: azure;
+    font-family: "Patua One", serif;
+}
+.Menu>h3{
+    color: azure;
+    font-family: "Patua One", serif;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+.Menu>p{
+    font-size: 1.5rem;
+    color: azure;
+}
+.bottom-container{
+    background-color: #616dfe;
+    margin: 0px;
+}
+#sumukh{
+    color: azure!important;
+}
